@@ -1,0 +1,295 @@
+{
+  "gptImagePrompts": {
+    "seo": {
+      "title": "Galerie de prompts GPT Image 2, exemples et guide d'écriture | Kollab",
+      "description": "Des centaines de prompts GPT Image 2 éprouvés, avec images de référence, textes prêts à copier, conseils de rédaction et FAQ — photographie, portrait, produit, mode, anime et typographie.",
+      "keywords": "prompts GPT Image 2, exemples de prompts GPT Image 2, guide GPT Image 2, prompts image IA, écriture de prompts, prompts photographie, Kollab"
+    },
+    "navigationLabel": "Navigation des prompts GPT Image 2",
+    "brandAria": "Accueil Kollab",
+    "language": {
+      "label": "Langue"
+    },
+    "routePill": "kollab.im/gpt-image-2-prompts",
+    "headerMeta": "Sélection de prompts",
+    "eyebrow": "Issue 02 · Sélection GPT Image 2 · 2026",
+    "marginNote": "Sélection main →",
+    "lede": "Une sélection de prompts GPT Image 2 éprouvés, avec découpage, notes de composition, descriptions de lumière et de matière. Reprenez la structure d'une carte proche de votre besoin — plus fiable que copier le texte tel quel.",
+    "title": "Galerie de prompts / GPT Image 2",
+    "toolbarLabel": "Recherche et filtres de prompts",
+    "search": {
+      "label": "Rechercher des prompts",
+      "placeholder": "Rechercher des prompts"
+    },
+    "filtersLabel": "Filtres de prompts",
+    "allTagsLabel": "Tous",
+    "latestTagLabel": "Plus récents",
+    "tagLabels": {
+      "photographyCinematic": "Photographie / Cinéma",
+      "portraitPerson": "Portrait / Personne",
+      "fashionBeauty": "Mode / Beauté",
+      "productBrandAd": "Produit / Publicité de marque",
+      "architectureCity": "Architecture / Ville",
+      "animeCharacter": "Anime / Personnage",
+      "typographyText": "Typographie / Texte",
+      "socialUiScreenshot": "UI sociale / Capture",
+      "storyboardSequence": "Storyboard / Séquence",
+      "infographicEducation": "Infographie / Éducation",
+      "fantasySciFi": "Fantasy / Science-fiction",
+      "objectDesign": "Design d'objet",
+      "referenceEdit": "Édition avec référence",
+      "foodDrink": "Cuisine / Boisson",
+      "vehicleTransport": "Véhicule / Transport"
+    },
+    "empty": "Aucun prompt ne correspond à cette recherche.",
+    "galleryLabel": "Galerie de prompts GPT Image 2",
+    "actions": {
+      "copy": "Copier le prompt",
+      "copied": "Copié dans le presse-papiers",
+      "share": "Partager le prompt",
+      "shared": "Lien copié",
+      "source": "Source",
+      "tryItNow": "Essayer dans Kollab",
+      "expand": "Lire plus",
+      "collapse": "Réduire"
+    },
+    "images": {
+      "open": "Ouvrir la galerie d'images",
+      "previous": "Image précédente",
+      "next": "Image suivante",
+      "close": "Fermer la galerie d'images",
+      "count": "{{current}} / {{total}}",
+      "fullscreen": "Voir la vidéo en plein écran"
+    },
+    "loadMore": {
+      "loading": "Chargement de prompts supplémentaires",
+      "error": "Impossible de charger plus de prompts.",
+      "retry": "Réessayer le chargement",
+      "end": "Tous les prompts sont chargés",
+      "idle": "D’autres prompts se chargent quand vous faites défiler"
+    },
+    "seoGuide": {
+      "sectionLabel": "Guide et FAQ GPT Image 2",
+      "title": "Guide et FAQ GPT Image 2",
+      "intro": [
+        "Pour générer des images plus régulières, un prompt doit décrire clairement le sujet, le cadrage, la lumière, la matière, l’ambiance et l’usage final. Cela réduit l’interprétation du modèle et facilite la répétition d’un style.",
+        "Cette page ne sert pas seulement à copier des exemples. Elle t’aide aussi à comprendre pourquoi certaines formulations fonctionnent mieux, afin de réutiliser les bons schémas pour tes propres visuels."
+      ],
+      "writingTitle": "Comment écrire de meilleurs prompts GPT Image 2",
+      "writingPoints": [
+        "Commence par le sujet, l’angle et l’objectif de la scène, puis ajoute la lumière, l’optique, la composition et les matériaux.",
+        "Précise d’abord les contraintes qui changent vraiment l’image finale: ratio, arrière-plan, palette, traitement du texte, ou rendu plus cinématographique, plus propre ou plus documentaire.",
+        "Compare plusieurs exemples réussis, garde les formulations les plus stables et transforme-les en modèles réutilisables."
+      ],
+      "faqTitle": "Questions fréquentes",
+      "faqs": [
+        {
+          "question": "Qu’est-ce qui distingue les prompts GPT Image 2 des prompts image génériques ?",
+          "answer": "La différence vient surtout de la précision. Un bon prompt explicite l’intention visuelle, les contraintes de marque et les détails qui ne doivent pas dériver."
+        },
+        {
+          "question": "Quelle longueur viser pour un prompt ?",
+          "answer": "Le plus court possible, mais avec toutes les informations décisives. Si un prompt court oublie le style, la hiérarchie du sujet ou la composition, ajoute seulement les détails qui modifient réellement le résultat."
+        },
+        {
+          "question": "Ces prompts servent-ils aussi pour les edits, références et variantes ?",
+          "answer": "Oui. Que tu partes de zéro, d’une image de référence ou d’une variation contrôlée, garder les ancres stables et ne changer que quelques variables par itération aide à obtenir des résultats cohérents."
+        }
+      ]
+    }
+  },
+  "seedance2Prompts": {
+    "seo": {
+      "title": "Galerie Seedance 2, exemples de prompts & guide | Kollab",
+      "description": "Prompts Seedance 2 testés avec vidéos de référence, textes prêts à copier, idées de plans, patterns de caméra et FAQ — cinéma, personnage, produit, mode, anime et motion design.",
+      "keywords": "prompts Seedance 2, exemples prompts Seedance 2, guide prompts Seedance 2, galerie prompts Seedance 2, prompts vidéo IA, prompts de mouvement, prompts cinématiques, Kollab"
+    },
+    "navigationLabel": "Navigation des prompts Seedance 2",
+    "brandAria": "Accueil Kollab",
+    "language": {
+      "label": "Langue"
+    },
+    "routePill": "kollab.im/seedance-2-prompts",
+    "headerMeta": "Notes de storyboard depuis Notion",
+    "title": "Galerie de prompts / Seedance 2",
+    "toolbarLabel": "Rechercher des prompts Seedance",
+    "search": {
+      "label": "Rechercher des prompts",
+      "placeholder": "Rechercher des prompts de mouvement"
+    },
+    "filtersLabel": "Filtres de prompts",
+    "allTagsLabel": "Tous",
+    "latestTagLabel": "Plus récents",
+    "tagLabels": {
+      "animeIllustration": "Anime / Illustration",
+      "architectureCity": "Architecture / Ville",
+      "cinematicScene": "Scène cinématique",
+      "fantasySciFi": "Fantasy / Science-fiction",
+      "foodDrink": "Cuisine / Boisson",
+      "historicalRetro": "Historique / Rétro",
+      "infographicKnowledge": "Infographie / Savoir",
+      "natureAnimal": "Nature / Animal",
+      "portraitFashion": "Portrait / Mode",
+      "productBrand": "Produit / Marque",
+      "referenceEdit": "Édition de référence",
+      "singleScene": "Scène unique",
+      "storyboardSequence": "Storyboard / Séquence",
+      "textPoster": "Texte / Affiche",
+      "uiSocialLayout": "UI / Mise en page sociale",
+      "vehicleTransport": "Véhicule / Transport"
+    },
+    "empty": "Aucun prompt Seedance ne correspond à cette recherche.",
+    "galleryLabel": "Galerie de prompts Seedance 2",
+    "actions": {
+      "copy": "Copier le prompt",
+      "copied": "Copié dans le presse-papiers",
+      "share": "Partager le prompt",
+      "shared": "Lien copié",
+      "source": "Source",
+      "tryItNow": "Essayer dans Kollab"
+    },
+    "images": {
+      "open": "Ouvrir la galerie d’images",
+      "previous": "Image précédente",
+      "next": "Image suivante",
+      "close": "Fermer la galerie d’images",
+      "count": "{{current}} / {{total}}",
+      "fullscreen": "Voir la vidéo en plein écran"
+    },
+    "loadMore": {
+      "loading": "Chargement de prompts supplémentaires",
+      "error": "Impossible de charger plus de prompts.",
+      "retry": "Réessayer",
+      "end": "Tous les prompts sont chargés",
+      "idle": "Fais défiler pour charger plus de prompts"
+    },
+    "seoGuide": {
+      "sectionLabel": "Guide et FAQ des prompts Seedance 2",
+      "title": "Guide et FAQ des prompts Seedance 2",
+      "intro": [
+        "Les prompts Seedance 2 fonctionnent mieux quand ils décrivent le sujet qui doit rester reconnaissable, l’action qui doit suivre et le mouvement de caméra qui donne de la force au clip. Un bon prompt ressemble davantage à un brief de plan compact qu’à une consigne générique.",
+        "Cette page t’aide à étudier de vrais schémas de prompts de mouvement avant de partir d’une page blanche. Tu peux parcourir les exemples, reprendre des formulations de rythme éprouvées et les adapter à des teasers produit, des scènes cinématiques, des prompts d’édition ou des workflows storyboard-vers-vidéo."
+      ],
+      "writingTitle": "Comment écrire de meilleurs prompts pour Seedance 2",
+      "writingPoints": [
+        "Commence par le sujet stable et l’action, puis ajoute le mouvement de caméra, le cadrage et l’intention émotionnelle du clip.",
+        "Précise les contraintes qui influencent le plus la qualité du mouvement : durée du plan, intention de transition, vitesse, sensation d’objectif, continuité du sujet, et rendu plutôt soigné, joueur, sombre ou documentaire.",
+        "Pendant l’itération, garde stables les éléments qui ancrent le clip et ne change qu’une ou deux variables à la fois, afin de savoir si le prompt d’édition, le mouvement ou la lumière améliore réellement le plan."
+      ],
+      "faqTitle": "FAQ prompts",
+      "faqs": [
+        {
+          "question": "Qu’est-ce qui distingue un prompt Seedance 2 d’un prompt pour image statique ?",
+          "answer": "Un prompt Seedance solide doit décrire le temps, pas seulement l’apparence. Il doit expliquer ce qui change dans le clip, comment la caméra se comporte et quels détails du sujet doivent rester cohérents pendant le mouvement."
+        },
+        {
+          "question": "Quel niveau de précision donner à la caméra ?",
+          "answer": "Sois précis quand le mouvement de caméra change le ressenti du clip. Des termes comme push-in, dérive à main levée, cadre fixe, tilt en plongée ou orbite lente rendent souvent le résultat plus fiable qu’un mouvement implicite."
+        },
+        {
+          "question": "Les prompts Seedance 2 peuvent-ils aider les workflows d’édition ou de remix ?",
+          "answer": "Oui. Les prompts Seedance servent à la génération pure, aux prompts d’édition et au storyboard. Les prompts d’édition les plus fiables indiquent quoi préserver du plan original et quel nouveau mouvement ou quelle nouvelle ambiance introduire."
+        }
+      ]
+    }
+  },
+  "gptImageSeedancePrompts": {
+    "seo": {
+      "title": "Galerie de prompts GPT Image 2 + Seedance 2 | Kollab",
+      "description": "Parcourez des prompts GPT Image 2 et Seedance 2 appariés, avec images de référence, vidéos lisibles, texte prêt à copier et notes de workflow image-vers-vidéo.",
+      "keywords": "prompts GPT Image 2, prompts Seedance 2, prompts image vers vidéo, galerie de prompts IA, exemples de prompts de mouvement, Kollab"
+    },
+    "navigationLabel": "Navigation des prompts GPT Image 2 et Seedance 2",
+    "brandAria": "Accueil Kollab",
+    "language": {
+      "label": "Langue"
+    },
+    "routePill": "kollab.im/gpt-image-2-seedance-2-prompts",
+    "headerMeta": "Études image-vers-vidéo synchronisées depuis Notion",
+    "title": "GPT Image 2 + Seedance 2 / Galerie de prompts",
+    "toolbarLabel": "Rechercher des prompts appariés",
+    "search": {
+      "label": "Rechercher des prompts",
+      "placeholder": "Rechercher des prompts image-vers-vidéo"
+    },
+    "filtersLabel": "Filtres de prompts",
+    "allTagsLabel": "Tous",
+    "latestTagLabel": "Plus récents",
+    "tagLabels": {
+      "animeIllustration": "Anime / Illustration",
+      "architectureCity": "Architecture / Ville",
+      "cinematicScene": "Scène cinématographique",
+      "fantasySciFi": "Fantaisie / Sci-fi",
+      "foodDrink": "Nourriture / Boisson",
+      "historicalRetro": "Historique / Rétro",
+      "infographicKnowledge": "Infographie / Savoir",
+      "natureAnimal": "Nature / Animal",
+      "portraitFashion": "Portrait / Mode",
+      "productBrand": "Produit / Marque",
+      "referenceEdit": "Édition à partir d'une référence",
+      "singleScene": "Scène unique",
+      "storyboardSequence": "Storyboard / Séquence",
+      "textPoster": "Texte / Affiche",
+      "uiSocialLayout": "UI / Mise en page sociale",
+      "vehicleTransport": "Véhicule / Transport"
+    },
+    "empty": "Aucun prompt apparié ne correspond à cette recherche.",
+    "galleryLabel": "Galerie de prompts GPT Image 2 et Seedance 2",
+    "actions": {
+      "copy": "Copier le prompt",
+      "copied": "Copié dans le presse-papiers",
+      "share": "Partager le prompt",
+      "shared": "Lien copié",
+      "source": "Source",
+      "tryItNow": "Essayer dans Kollab"
+    },
+    "images": {
+      "open": "Ouvrir la galerie d'images",
+      "previous": "Image précédente",
+      "next": "Image suivante",
+      "close": "Fermer la galerie d'images",
+      "count": "{{current}} / {{total}}",
+      "fullscreen": "Vidéo en plein écran"
+    },
+    "sections": {
+      "primaryPrompt": "Prompt GPT Image 2",
+      "secondaryPrompt": "Prompt Seedance 2"
+    },
+    "loadMore": {
+      "loading": "Chargement de plus de prompts",
+      "error": "Impossible de charger plus de prompts.",
+      "retry": "Réessayer",
+      "end": "Tous les prompts sont chargés",
+      "idle": "D'autres prompts se chargent quand vous faites défiler"
+    },
+    "seoGuide": {
+      "sectionLabel": "Guide de prompts image-vers-vidéo et FAQ",
+      "title": "Comment associer les prompts GPT Image 2 et Seedance 2",
+      "intro": [
+        "Ces cartes associent un prompt d'image à un prompt de mouvement pour montrer comment une configuration visuelle fixe devient un clip lisible.",
+        "Étudiez d'abord la composition, les matières et les ancrages du sujet dans la partie GPT Image 2, puis voyez quels mouvements, rythmes et consignes caméra ont été ajoutés dans la partie Seedance 2."
+      ],
+      "writingTitle": "Comment écrire des prompts appariés plus solides",
+      "writingPoints": [
+        "Gardez le sujet principal, l'ambiance et le cadrage de base stables entre le prompt d'image et le prompt vidéo.",
+        "Laissez le prompt GPT Image 2 porter l'essentiel de la précision visuelle, puis utilisez le prompt Seedance 2 pour le mouvement, le rythme et le comportement caméra.",
+        "Quand vous itérez, ne changez qu'une couche à la fois pour comprendre si l'amélioration vient de l'image fixe ou de l'instruction de mouvement."
+      ],
+      "faqTitle": "FAQ",
+      "faqs": [
+        {
+          "question": "Pourquoi afficher les deux prompts séparément ?",
+          "answer": "Parce que le prompt d'image et le prompt de mouvement ne résolvent pas le même problème. Les séparer facilite la copie du bon texte dans le bon modèle."
+        },
+        {
+          "question": "Le prompt vidéo doit-il répéter toute la description de l'image ?",
+          "answer": "En général non. Gardez seulement les ancrages visuels qui doivent rester stables, puis utilisez le reste du budget de texte pour le mouvement, le timing et les changements de caméra."
+        },
+        {
+          "question": "Que faire si le clip dérive par rapport à l'image de référence ?",
+          "answer": "Renforcez d'abord les ancrages du sujet dans le prompt d'image, puis simplifiez le prompt vidéo pour demander moins de changements simultanés."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,295 @@
+{
+  "gptImagePrompts": {
+    "seo": {
+      "title": "GPT Image 2 プロンプトギャラリー・例・書き方ガイド | Kollab",
+      "description": "実績ある GPT Image 2 プロンプトを多数収録。参考画像、コピー対応テキスト、書き方のコツ、よくある質問を、撮影・人物・プロダクト・ファッション・アニメ・タイポまで網羅。",
+      "keywords": "GPT Image 2 プロンプト, GPT Image 2 プロンプト例, GPT Image 2 ガイド, AI画像プロンプト, プロンプト書き方, 撮影プロンプト, Kollab"
+    },
+    "navigationLabel": "GPT Image 2 プロンプトナビゲーション",
+    "brandAria": "Kollab ホーム",
+    "language": {
+      "label": "言語"
+    },
+    "routePill": "kollab.im/gpt-image-2-prompts",
+    "headerMeta": "厳選プロンプト集",
+    "eyebrow": "Issue 02 · 厳選 GPT Image 2 プロンプト集 · 2026",
+    "marginNote": "厳選 →",
+    "lede": "実績のある GPT Image 2 プロンプトを集めました。絵コンテの発想、構図の詰め方、光と質感の指定まで実例で確認できます。目的に近いカードの構造を借りてくる方が、テキストを丸ごと写すより確実です。",
+    "title": "GPT Image 2 / プロンプトギャラリー",
+    "toolbarLabel": "プロンプト検索とフィルター",
+    "search": {
+      "label": "プロンプトを検索",
+      "placeholder": "プロンプトを検索"
+    },
+    "filtersLabel": "プロンプトフィルター",
+    "allTagsLabel": "すべて",
+    "latestTagLabel": "最新",
+    "tagLabels": {
+      "photographyCinematic": "写真 / シネマ",
+      "portraitPerson": "ポートレート / 人物",
+      "fashionBeauty": "ファッション / ビューティー",
+      "productBrandAd": "商品 / ブランド広告",
+      "architectureCity": "建築 / 都市",
+      "animeCharacter": "アニメ / キャラクター",
+      "typographyText": "タイポグラフィ / 文字",
+      "socialUiScreenshot": "SNS UI / スクリーンショット",
+      "storyboardSequence": "ストーリーボード / 連続シーン",
+      "infographicEducation": "インフォグラフィック / 教育",
+      "fantasySciFi": "ファンタジー / SF",
+      "objectDesign": "オブジェクトデザイン",
+      "referenceEdit": "参照画像編集",
+      "foodDrink": "フード / ドリンク",
+      "vehicleTransport": "乗り物 / 交通"
+    },
+    "empty": "この検索に一致するプロンプトはありません。",
+    "galleryLabel": "GPT Image 2 プロンプトギャラリー",
+    "actions": {
+      "copy": "プロンプトをコピー",
+      "copied": "クリップボードにコピー済み",
+      "share": "プロンプトを共有",
+      "shared": "リンクをコピーしました",
+      "source": "出典",
+      "tryItNow": "Kollab で試す",
+      "expand": "もっと見る",
+      "collapse": "閉じる"
+    },
+    "images": {
+      "open": "画像ギャラリーを開く",
+      "previous": "前の画像",
+      "next": "次の画像",
+      "close": "画像ギャラリーを閉じる",
+      "count": "{{current}} / {{total}}",
+      "fullscreen": "動画を全画面で表示"
+    },
+    "loadMore": {
+      "loading": "さらにプロンプトを読み込み中",
+      "error": "さらにプロンプトを読み込めませんでした。",
+      "retry": "再試行",
+      "end": "すべてのプロンプトを読み込みました",
+      "idle": "スクロールするとさらに読み込みます"
+    },
+    "seoGuide": {
+      "sectionLabel": "GPT Image 2 ガイドと FAQ",
+      "title": "GPT Image 2 ガイドと FAQ",
+      "intro": [
+        "狙い通りの画像を安定して作るには、プロンプトの中で被写体、構図、光、質感、ムード、用途をできるだけ明確に伝えることが重要です。そうすることでモデルの推測を減らし、再現しやすいスタイルを作れます。",
+        "このページはコピペ用の例を並べるだけではなく、なぜその表現が効くのかを理解するための入口でもあります。成功例を見比べながら、自分のワークフローに合う書き方を抽出できます。"
+      ],
+      "writingTitle": "より強い GPT Image 2 プロンプトを書くコツ",
+      "writingPoints": [
+        "まず被写体、視点、シーンの目的を書き、その後に光、レンズ、構図、素材感を足します。",
+        "最終結果に効く制約から先に書きます。たとえばアスペクト比、背景、配色、文字表現、映画調かクリーンかドキュメンタリー調かといった要素です。",
+        "成功した例を並べて比較し、安定して効く言い回しだけを残して再利用できるテンプレートに整理します。"
+      ],
+      "faqTitle": "よくある質問",
+      "faqs": [
+        {
+          "question": "GPT Image 2 のプロンプトは一般的な画像プロンプトと何が違いますか？",
+          "answer": "大きな違いは長さではなく具体性です。よいプロンプトは、見た目の意図、ブランド上の制約、ブレてほしくない細部を明確に伝えます。"
+        },
+        {
+          "question": "プロンプトはどれくらいの長さが適切ですか？",
+          "answer": "基本はできるだけ短く、必要な情報は落とさないことです。短い文でスタイルや主体の優先順位、構図が伝わらない場合だけ、結果を変える要素を足してください。"
+        },
+        {
+          "question": "編集、参照画像、バリエーション作成にも使えますか？",
+          "answer": "使えます。新規生成でも参照画像編集でも、固定したい視覚アンカーを維持しつつ、一度に変える変数を少なくすると結果が安定します。"
+        }
+      ]
+    }
+  },
+  "seedance2Prompts": {
+    "seo": {
+      "title": "Seedance 2 プロンプトギャラリー・例文・ライティングガイド | Kollab",
+      "description": "テスト済み Seedance 2 モーションプロンプトを収録。コピーしてすぐ使えるプロンプト、ショット案、カメラワーク型、ライティング Tips と FAQ を完備。映画・キャラクター・商品・ファッション・アニメに対応。",
+      "keywords": "Seedance 2 プロンプト, Seedance 2 プロンプト例, Seedance 2 プロンプトガイド, Seedance 2 プロンプトギャラリー, AI 動画プロンプト, モーションプロンプト, カメラワーク, Kollab"
+    },
+    "navigationLabel": "Seedance 2 プロンプトナビゲーション",
+    "brandAria": "Kollab ホーム",
+    "language": {
+      "label": "言語"
+    },
+    "routePill": "kollab.im/seedance-2-prompts",
+    "headerMeta": "Notion からの絵コンテメモ",
+    "title": "Seedance 2 / プロンプトギャラリー",
+    "toolbarLabel": "Seedance プロンプトを検索",
+    "search": {
+      "label": "プロンプトを検索",
+      "placeholder": "モーションプロンプトを検索"
+    },
+    "filtersLabel": "プロンプトフィルター",
+    "allTagsLabel": "すべて",
+    "latestTagLabel": "最新",
+    "tagLabels": {
+      "animeIllustration": "アニメ / イラスト",
+      "architectureCity": "建築 / 都市",
+      "cinematicScene": "シネマティックシーン",
+      "fantasySciFi": "ファンタジー / SF",
+      "foodDrink": "食べ物 / 飲み物",
+      "historicalRetro": "歴史 / レトロ",
+      "infographicKnowledge": "インフォグラフィック / ナレッジ",
+      "natureAnimal": "自然 / 動物",
+      "portraitFashion": "ポートレート / ファッション",
+      "productBrand": "商品 / ブランド",
+      "referenceEdit": "参照編集",
+      "singleScene": "単一シーン",
+      "storyboardSequence": "絵コンテ / シーケンス",
+      "textPoster": "テキスト / ポスター",
+      "uiSocialLayout": "UI / ソーシャルレイアウト",
+      "vehicleTransport": "乗り物 / 交通"
+    },
+    "empty": "この検索条件に一致する Seedance プロンプトはありません。",
+    "galleryLabel": "Seedance 2 プロンプトギャラリー",
+    "actions": {
+      "copy": "プロンプトをコピー",
+      "copied": "クリップボードにコピーしました",
+      "share": "プロンプトを共有",
+      "shared": "リンクをコピーしました",
+      "source": "ソース",
+      "tryItNow": "Kollab で試す"
+    },
+    "images": {
+      "open": "画像ギャラリーを開く",
+      "previous": "前の画像",
+      "next": "次の画像",
+      "close": "画像ギャラリーを閉じる",
+      "count": "{{current}} / {{total}}",
+      "fullscreen": "動画を全画面で表示"
+    },
+    "loadMore": {
+      "loading": "さらにプロンプトを読み込み中",
+      "error": "さらにプロンプトを読み込めませんでした。",
+      "retry": "再読み込み",
+      "end": "すべてのプロンプトを読み込みました",
+      "idle": "スクロールするとさらに読み込みます"
+    },
+    "seoGuide": {
+      "sectionLabel": "Seedance 2 プロンプトガイドと FAQ",
+      "title": "Seedance 2 プロンプトガイドと FAQ",
+      "intro": [
+        "Seedance 2 のプロンプトでは、識別性を保つ主体、次に起きる動きのビート、クリップを成立させるカメラワークをまとめて書くと安定します。よいプロンプトは汎用的な文章ではなく、短いショットブリーフに近いものです。",
+        "このページでは、白紙から始める前に実際のモーションプロンプトの型を確認できます。例を眺め、使いやすいテンポの表現を借りて、商品ティーザー、映画的なシーン、編集プロンプト、絵コンテから動画へのワークフローに合わせて調整してください。"
+      ],
+      "writingTitle": "Seedance 2 向けの強いプロンプトを書く方法",
+      "writingPoints": [
+        "まず安定させたい主体と動きを書き、その後にカメラワーク、フレーミング、最後に着地させたい感情のビートを足します。",
+        "動きの品質に影響する制約を明示します。ショットの長さ、トランジションの意図、速度、レンズ感、主体の連続性、仕上がりを洗練、遊び心、ムーディー、ドキュメンタリーのどれに寄せるかを指定します。",
+        "反復するときはクリップを支える要素を固定し、一度に変える変数を一つか二つに絞ると、編集指示、動き、照明のどれが結果を改善したのか判断しやすくなります。"
+      ],
+      "faqTitle": "プロンプト FAQ",
+      "faqs": [
+        {
+          "question": "Seedance 2 のプロンプトは静止画像プロンプトと何が違いますか？",
+          "answer": "強い Seedance プロンプトは見た目だけでなく時間を記述します。クリップ中に何が変化するのか、カメラがどう動くのか、動きの中でも保つべき主体の細部は何かを伝える必要があります。"
+        },
+        {
+          "question": "カメラの説明はどれくらい具体的にすべきですか？",
+          "answer": "カメラワークがクリップの印象を変える場合は具体的に書くべきです。push-in、手持ちの揺れ、固定フレーム、俯瞰からのティルト、ゆっくりしたオービットなどは、動きを暗黙に任せるより安定しやすくなります。"
+        },
+        {
+          "question": "Seedance 2 プロンプトは編集やリミックスにも使えますか？",
+          "answer": "使えます。Seedance プロンプトは新規生成、編集プロンプト、絵コンテ作成に役立ちます。信頼できる編集プロンプトは、元のショットから何を残し、どんな新しい動きやムードを加えるかを明確にします。"
+        }
+      ]
+    }
+  },
+  "gptImageSeedancePrompts": {
+    "seo": {
+      "title": "GPT Image 2 + Seedance 2 プロンプトギャラリー | Kollab",
+      "description": "GPT Image 2 と Seedance 2 のペアプロンプトを、参考画像、再生可能な動画、コピーしやすいテキスト、画像から動画へのワークフローノート付きで閲覧できます。",
+      "keywords": "GPT Image 2 プロンプト, Seedance 2 プロンプト, 画像から動画のプロンプト, AI プロンプトギャラリー, モーションプロンプト例, Kollab"
+    },
+    "navigationLabel": "GPT Image 2 と Seedance 2 のプロンプトナビゲーション",
+    "brandAria": "Kollab ホーム",
+    "language": {
+      "label": "言語"
+    },
+    "routePill": "kollab.im/gpt-image-2-seedance-2-prompts",
+    "headerMeta": "Notion から同期した画像から動画の作例",
+    "title": "GPT Image 2 + Seedance 2 / プロンプトギャラリー",
+    "toolbarLabel": "ペアプロンプトを検索",
+    "search": {
+      "label": "プロンプトを検索",
+      "placeholder": "画像から動画のプロンプトを検索"
+    },
+    "filtersLabel": "プロンプトフィルター",
+    "allTagsLabel": "すべて",
+    "latestTagLabel": "最新",
+    "tagLabels": {
+      "animeIllustration": "アニメ / イラスト",
+      "architectureCity": "建築 / 都市",
+      "cinematicScene": "シネマティックシーン",
+      "fantasySciFi": "ファンタジー / SF",
+      "foodDrink": "フード / ドリンク",
+      "historicalRetro": "歴史 / レトロ",
+      "infographicKnowledge": "インフォグラフィック / ナレッジ",
+      "natureAnimal": "自然 / 動物",
+      "portraitFashion": "ポートレート / ファッション",
+      "productBrand": "プロダクト / ブランド",
+      "referenceEdit": "参照画像編集",
+      "singleScene": "単一シーン",
+      "storyboardSequence": "絵コンテ / シーケンス",
+      "textPoster": "テキスト / ポスター",
+      "uiSocialLayout": "UI / ソーシャルレイアウト",
+      "vehicleTransport": "乗り物 / 交通"
+    },
+    "empty": "一致するペアプロンプトはありません。",
+    "galleryLabel": "GPT Image 2 と Seedance 2 のプロンプトギャラリー",
+    "actions": {
+      "copy": "プロンプトをコピー",
+      "copied": "クリップボードにコピーしました",
+      "share": "プロンプトを共有",
+      "shared": "リンクをコピーしました",
+      "source": "ソース",
+      "tryItNow": "Kollab で試す"
+    },
+    "images": {
+      "open": "画像ギャラリーを開く",
+      "previous": "前の画像",
+      "next": "次の画像",
+      "close": "画像ギャラリーを閉じる",
+      "count": "{{current}} / {{total}}",
+      "fullscreen": "動画を全画面表示"
+    },
+    "sections": {
+      "primaryPrompt": "GPT Image 2 プロンプト",
+      "secondaryPrompt": "Seedance 2 プロンプト"
+    },
+    "loadMore": {
+      "loading": "さらにプロンプトを読み込み中",
+      "error": "さらにプロンプトを読み込めませんでした。",
+      "retry": "再試行",
+      "end": "すべてのプロンプトを読み込みました",
+      "idle": "スクロールするとさらに読み込まれます"
+    },
+    "seoGuide": {
+      "sectionLabel": "画像から動画のプロンプトガイドと FAQ",
+      "title": "GPT Image 2 と Seedance 2 のプロンプトを組み合わせる方法",
+      "intro": [
+        "これらのカードでは、1 本の画像生成プロンプトと 1 本のモーションプロンプトを並べて、静止ビジュアルがどのように再生可能なクリップへ変わるかを学べます。",
+        "まず GPT Image 2 側で構図、質感、被写体アンカーを確認し、その上で Seedance 2 側にどんな動き、テンポ、カメラ指示が追加されたかを見るのが効果的です。"
+      ],
+      "writingTitle": "より強いペアプロンプトを書くコツ",
+      "writingPoints": [
+        "画像プロンプトと動画プロンプトのあいだで、被写体、ムード、基本構図を一貫させましょう。",
+        "視覚的な具体性の大半は GPT Image 2 プロンプトで担い、Seedance 2 プロンプトでは動き、ペース、カメラ挙動に集中させます。",
+        "改善点を見極めやすくするために、反復時は一度に一層だけ変更しましょう。"
+      ],
+      "faqTitle": "よくある質問",
+      "faqs": [
+        {
+          "question": "なぜ 2 つのプロンプトを分けて表示するのですか？",
+          "answer": "画像プロンプトとモーションプロンプトは解決する役割が違うからです。分けておくと、正しいモデルに正しいテキストをコピーしやすくなります。"
+        },
+        {
+          "question": "動画プロンプトでも画像の説明をすべて繰り返すべきですか？",
+          "answer": "通常は不要です。安定して残したい視覚アンカーだけを残し、残りの文字数は動き、タイミング、カメラ変化の説明に使う方が効果的です。"
+        },
+        {
+          "question": "クリップが参照画像からずれていく場合は何を調整すべきですか？",
+          "answer": "まず画像プロンプトの被写体アンカーを強め、そのあと動画プロンプトを簡潔にして同時に起こる変化を減らしてください。"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "kollab-seedance-2-prompts-landing",
+  "private": false,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "next dev --port 3017",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "next typegen && tsc --noEmit --pretty false"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.1037.0",
+    "@tanstack/react-virtual": "^3.13.18",
+    "firebase": "^12.12.1",
+    "hls.js": "^1.6.16",
+    "masonic": "^4.1.0",
+    "mixpanel-browser": "^2.78.0",
+    "next": "^16.2.4",
+    "pg": "^8.20.0",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "react-photo-view": "^1.2.7",
+    "sharp": "^0.34.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.2.4",
+    "@types/mixpanel-browser": "^2.66.0",
+    "@types/node": "^25.6.0",
+    "@types/pg": "^8.20.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "tailwindcss": "^4.2.4",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
+  },
+  "description": "Standalone source export for the Seedance 2 prompts landing page."
+}

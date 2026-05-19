@@ -1,0 +1,65 @@
+/**
+ * prompt-gallery-photo-view.css — Editorial palette overrides for react-photo-view.
+ * Scoped under .prompt-gallery-photo-view so these rules do not bleed into any other
+ * PhotoSlider instance that might be mounted elsewhere on the page.
+ *
+ * Only the backdrop dim, toolbar, counter, and arrow SVG fills are touched; all layout,
+ * animation, and portal-layer positioning come from the library's own stylesheet.
+ *
+ * Token reference (defined in globals.css):
+ *   --paper        #f4eedf  warm cream background
+ *   --ink-primary  #1a1610  near-black ink
+ *   --marker       #d2502a  oxidised orange accent
+ */
+
+/*
+ * Wrap the portal root with a marker class that PhotoSlider's `className` prop
+ * propagates to the portal container, giving us a scoping anchor.
+ * react-photo-view appends .PhotoView-Portal to document.body directly, so we
+ * use a sibling selector via the className prop on <PhotoSlider> instead,
+ * which sets the class on the outermost portal wrapper:
+ *   <PhotoSlider className="prompt-gallery-photo-view" ... />
+ * The library places that class on the .PhotoView-Portal div, so descendant
+ * selectors below work correctly.
+ */
+
+/* Warm paper-tinted dim instead of pure black */
+.prompt-gallery-photo-view .PhotoView-Slider__Backdrop {
+  background: rgba(26, 22, 16, 0.86);
+}
+
+/* Banner strip: match paper-tinted dark so it blends with the dim */
+.prompt-gallery-photo-view .PhotoView-Slider__BannerWrap {
+  background-color: rgba(26, 22, 16, 0.64);
+}
+
+/* Counter typography: monospace, slightly tinted */
+.prompt-gallery-photo-view .PhotoView-Slider__Counter {
+  font-family: var(--font-mono, ui-monospace, 'Menlo', monospace);
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  opacity: 0.82;
+  color: var(--paper);
+}
+
+/* Toolbar icons: cream fill, marker-orange on hover */
+.prompt-gallery-photo-view .PhotoView-Slider__toolbarIcon {
+  fill: var(--paper);
+  opacity: 0.82;
+}
+.prompt-gallery-photo-view .PhotoView-Slider__toolbarIcon:hover {
+  fill: var(--marker);
+  opacity: 1;
+}
+
+/* Arrow SVG icons: cream fill, dark translucent background, marker on hover */
+.prompt-gallery-photo-view .PhotoView-Slider__ArrowLeft svg,
+.prompt-gallery-photo-view .PhotoView-Slider__ArrowRight svg {
+  fill: var(--paper);
+  background: rgba(26, 22, 16, 0.36);
+}
+.prompt-gallery-photo-view .PhotoView-Slider__ArrowLeft:hover svg,
+.prompt-gallery-photo-view .PhotoView-Slider__ArrowRight:hover svg {
+  fill: var(--marker);
+  background: rgba(26, 22, 16, 0.56);
+}

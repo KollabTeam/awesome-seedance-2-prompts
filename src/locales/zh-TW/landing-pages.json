@@ -1,0 +1,295 @@
+{
+  "gptImagePrompts": {
+    "seo": {
+      "title": "GPT Image 2 提示詞圖庫、範例與寫作指南 | Kollab",
+      "description": "數百條經實測的 GPT Image 2 提示詞，附參考圖、可複製文字、寫作技巧與提示詞 FAQ——涵蓋攝影、人像、產品、時尚、動漫與文字海報。",
+      "keywords": "GPT Image 2 提示詞, GPT Image 2 提示詞範例, GPT Image 2 提示詞指南, AI 圖像提示詞, 提示詞寫作, 提示詞教學, 攝影提示詞, Kollab"
+    },
+    "navigationLabel": "GPT Image 2 提示詞導覽",
+    "brandAria": "Kollab 首頁",
+    "language": {
+      "label": "語言"
+    },
+    "routePill": "kollab.im/gpt-image-2-prompts",
+    "headerMeta": "精選提示詞合集",
+    "eyebrow": "第 02 期 · 實拍 GPT Image 2 提示詞集 · 2026",
+    "marginNote": "親手挑過的 →",
+    "lede": "經過實測的 GPT Image 2 提示詞集合，包含分鏡思路、構圖細節、光線和材質描述。挑一張接近你目標的圖，把它的結構遷移到自己的任務裡——比直接抄文字更可靠。",
+    "title": "GPT Image 2 / 提示詞圖庫",
+    "toolbarLabel": "提示詞搜尋與篩選",
+    "search": {
+      "label": "搜尋提示詞",
+      "placeholder": "搜尋提示詞"
+    },
+    "filtersLabel": "提示詞篩選",
+    "allTagsLabel": "全部",
+    "latestTagLabel": "最新",
+    "tagLabels": {
+      "photographyCinematic": "攝影 / 電影感",
+      "portraitPerson": "人像 / 人物",
+      "fashionBeauty": "時尚 / 美妝",
+      "productBrandAd": "產品 / 品牌廣告",
+      "architectureCity": "建築 / 城市",
+      "animeCharacter": "動漫 / 角色",
+      "typographyText": "字體 / 文字",
+      "socialUiScreenshot": "社群 UI / 截圖",
+      "storyboardSequence": "分鏡 / 序列",
+      "infographicEducation": "資訊圖表 / 教育",
+      "fantasySciFi": "奇幻 / 科幻",
+      "objectDesign": "物件設計",
+      "referenceEdit": "參考圖編輯",
+      "foodDrink": "食物 / 飲品",
+      "vehicleTransport": "載具 / 交通"
+    },
+    "empty": "沒有符合此搜尋的提示詞。",
+    "galleryLabel": "GPT Image 2 提示詞圖庫",
+    "actions": {
+      "copy": "複製提示詞",
+      "copied": "已複製到剪貼簿",
+      "share": "分享提示詞",
+      "shared": "連結已複製",
+      "source": "來源",
+      "tryItNow": "在 Kollab 中試用",
+      "expand": "展開",
+      "collapse": "收合"
+    },
+    "images": {
+      "open": "開啟圖片圖庫",
+      "previous": "上一張圖片",
+      "next": "下一張圖片",
+      "close": "關閉圖片圖庫",
+      "count": "{{current}} / {{total}}",
+      "fullscreen": "全螢幕播放影片"
+    },
+    "loadMore": {
+      "loading": "正在載入更多提示詞",
+      "error": "無法載入更多提示詞。",
+      "retry": "重試載入",
+      "end": "所有提示詞都已載入",
+      "idle": "向下捲動時會載入更多提示詞"
+    },
+    "seoGuide": {
+      "sectionLabel": "GPT Image 2 提示詞指南與 FAQ",
+      "title": "GPT Image 2 提示詞指南與 FAQ",
+      "intro": [
+        "如果你想更穩定地生成接近預期的畫面，提示詞裡最好同時說清主體、構圖、光線、材質、情緒與輸出用途。這能減少模型猜測，也更方便團隊重複利用風格。",
+        "這個頁面除了提供可直接複製的案例，也希望幫你理解一條高品質提示詞為什麼有效。你可以先觀察成功範例，再把其中的構圖、鏡頭與質感描述遷移到自己的任務中。"
+      ],
+      "writingTitle": "如何寫出更強的 GPT Image 2 提示詞",
+      "writingPoints": [
+        "先寫清主體、視角與場景目標，再補上光線、鏡頭、構圖與材質細節。",
+        "優先補會影響結果的限制，例如畫幅比例、背景控制、配色、文字處理方式，以及畫面應該更電影感、更乾淨還是更紀實。",
+        "把多條成功案例並排比較，留下最穩定的描述方式，再沉澱成可重複使用的模板。"
+      ],
+      "faqTitle": "常見問題",
+      "faqs": [
+        {
+          "question": "GPT Image 2 提示詞和一般圖片提示詞有什麼差別？",
+          "answer": "差別通常不在於更長，而在於更明確。高品質提示詞會把視覺目標、品牌限制與不能漂移的細節交代清楚，而不是只給一個模糊場景。"
+        },
+        {
+          "question": "提示詞應該寫多長？",
+          "answer": "通常越短越好，但前提是關鍵資訊完整。如果一條短提示詞沒有涵蓋風格、主體層級或構圖目標，再按影響最大的維度補充。"
+        },
+        {
+          "question": "它適合做參考圖編輯與變體嗎？",
+          "answer": "適合。無論是從零生成、參考圖編輯，還是受控變體，只要把穩定錨點固定住，再一次只改少量變數，就更容易得到一致結果。"
+        }
+      ]
+    }
+  },
+  "seedance2Prompts": {
+    "seo": {
+      "title": "Seedance 2 提示詞畫廊、範例與寫作指南 | Kollab",
+      "description": "精選 Seedance 2 影片動態提示詞，含可直接複製的運鏡提示詞、參考畫面、鏡頭靈感、運鏡模式、寫作技巧與提示詞寫作 FAQ，涵蓋影視、角色、商品、時尚、動漫、建築等多類主要場景，適合影片創作者與內容團隊日常參考使用。",
+      "keywords": "Seedance 2 提示詞, Seedance 2 提示詞範例, Seedance 2 提示詞指南, AI 影片提示詞, 運鏡提示詞, 動態提示詞, 鏡頭提示詞, Kollab"
+    },
+    "navigationLabel": "Seedance 2 提示詞導覽",
+    "brandAria": "Kollab 首頁",
+    "language": {
+      "label": "語言"
+    },
+    "routePill": "kollab.im/seedance-2-prompts",
+    "headerMeta": "來自 Notion 的分鏡筆記",
+    "title": "Seedance 2 / 提示詞畫廊",
+    "toolbarLabel": "搜尋 Seedance 提示詞",
+    "search": {
+      "label": "搜尋提示詞",
+      "placeholder": "搜尋動態提示詞"
+    },
+    "filtersLabel": "提示詞篩選",
+    "allTagsLabel": "全部",
+    "latestTagLabel": "最新",
+    "tagLabels": {
+      "animeIllustration": "動漫 / 插畫",
+      "architectureCity": "建築 / 城市",
+      "cinematicScene": "電影感場景",
+      "fantasySciFi": "奇幻 / 科幻",
+      "foodDrink": "食物 / 飲品",
+      "historicalRetro": "歷史 / 復古",
+      "infographicKnowledge": "資訊圖 / 知識",
+      "natureAnimal": "自然 / 動物",
+      "portraitFashion": "人像 / 時尚",
+      "productBrand": "產品 / 品牌",
+      "referenceEdit": "參考圖編輯",
+      "singleScene": "單場景",
+      "storyboardSequence": "分鏡 / 序列",
+      "textPoster": "文字 / 海報",
+      "uiSocialLayout": "UI / 社群版面",
+      "vehicleTransport": "車輛 / 交通"
+    },
+    "empty": "沒有符合這個搜尋條件的 Seedance 提示詞。",
+    "galleryLabel": "Seedance 2 提示詞畫廊",
+    "actions": {
+      "copy": "複製提示詞",
+      "copied": "已複製到剪貼簿",
+      "share": "分享提示詞",
+      "shared": "連結已複製",
+      "source": "來源",
+      "tryItNow": "在 Kollab 中試用"
+    },
+    "images": {
+      "open": "開啟圖片畫廊",
+      "previous": "上一張圖片",
+      "next": "下一張圖片",
+      "close": "關閉圖片畫廊",
+      "count": "{{current}} / {{total}}",
+      "fullscreen": "全螢幕播放影片"
+    },
+    "loadMore": {
+      "loading": "正在載入更多提示詞",
+      "error": "載入更多提示詞失敗。",
+      "retry": "重試載入",
+      "end": "已載入全部提示詞",
+      "idle": "繼續滑動會自動載入更多"
+    },
+    "seoGuide": {
+      "sectionLabel": "Seedance 2 提示詞指南與 FAQ",
+      "title": "Seedance 2 提示詞指南與 FAQ",
+      "intro": [
+        "Seedance 2 提示詞最好同時描述需要保持可辨識的主體、接下來要發生的動作節拍，以及讓短片成立的鏡頭運動。好的提示詞更像一份緊湊的鏡頭 brief，而不是泛泛的文字提示。",
+        "這個頁面幫助你在從空白畫布開始前先研究真實的動態提示詞模式。你可以瀏覽範例，借用穩定的節奏語言，並把它們改寫成產品預告、電影感場景、編輯提示詞或分鏡到影片流程。"
+      ],
+      "writingTitle": "如何寫出更強的 Seedance 2 提示詞",
+      "writingPoints": [
+        "先寫穩定主體和動作，再補充運鏡、取景方式，以及這段短片最終要落到的情緒節拍。",
+        "明確最影響運動品質的約束：鏡頭長度、轉場意圖、速度、鏡頭質感、主體連續性，以及短片應該更精緻、更輕鬆、更陰鬱還是更紀實。",
+        "迭代時保留能錨定短片的部分，每次只改變一兩個變數，這樣你才能判斷到底是編輯提示、運動方式還是光線指令改善了結果。"
+      ],
+      "faqTitle": "提示詞 FAQ",
+      "faqs": [
+        {
+          "question": "Seedance 2 提示詞和靜態圖片提示詞有什麼不同？",
+          "answer": "強 Seedance 提示詞必須描述時間，而不只是外觀。它需要告訴模型短片裡會發生什麼變化、鏡頭如何運動，以及哪些主體細節在運動中必須保持一致。"
+        },
+        {
+          "question": "鏡頭描述應該多具體？",
+          "answer": "當運鏡會改變短片觀感時，就應該具體說明。比如 push-in、手持漂移、固定機位、俯拍傾斜或緩慢環繞，通常比把運動留給模型猜更可靠。"
+        },
+        {
+          "question": "Seedance 2 提示詞能用於編輯或 remix 流程嗎？",
+          "answer": "可以。Seedance 提示詞既適合從零生成，也適合編輯提示和分鏡。最可靠的編輯提示會說明要保留原鏡頭的什麼，以及要引入什麼新的運動或情緒。"
+        }
+      ]
+    }
+  },
+  "gptImageSeedancePrompts": {
+    "seo": {
+      "title": "GPT Image 2 + Seedance 2 提示詞畫廊 | Kollab",
+      "description": "瀏覽成對的 GPT Image 2 與 Seedance 2 提示詞，附參考圖片、可播放影片、可直接複製的文字，以及圖生影片工作流備註。",
+      "keywords": "GPT Image 2 提示詞, Seedance 2 提示詞, 圖生影片提示詞, AI 提示詞畫廊, 動態提示詞範例, Kollab"
+    },
+    "navigationLabel": "GPT Image 2 與 Seedance 2 提示詞導覽",
+    "brandAria": "Kollab 首頁",
+    "language": {
+      "label": "語言"
+    },
+    "routePill": "kollab.im/gpt-image-2-seedance-2-prompts",
+    "headerMeta": "來自 Notion 的圖生影片案例",
+    "title": "GPT Image 2 + Seedance 2 / 提示詞畫廊",
+    "toolbarLabel": "搜尋成對提示詞",
+    "search": {
+      "label": "搜尋提示詞",
+      "placeholder": "搜尋圖生影片提示詞"
+    },
+    "filtersLabel": "提示詞篩選",
+    "allTagsLabel": "全部",
+    "latestTagLabel": "最新",
+    "tagLabels": {
+      "animeIllustration": "動漫 / 插畫",
+      "architectureCity": "建築 / 城市",
+      "cinematicScene": "電影感場景",
+      "fantasySciFi": "奇幻 / 科幻",
+      "foodDrink": "食物 / 飲品",
+      "historicalRetro": "歷史 / 復古",
+      "infographicKnowledge": "資訊圖 / 知識",
+      "natureAnimal": "自然 / 動物",
+      "portraitFashion": "人像 / 時尚",
+      "productBrand": "產品 / 品牌",
+      "referenceEdit": "參考圖編輯",
+      "singleScene": "單場景",
+      "storyboardSequence": "分鏡 / 序列",
+      "textPoster": "文字 / 海報",
+      "uiSocialLayout": "UI / 社群版式",
+      "vehicleTransport": "車輛 / 交通"
+    },
+    "empty": "沒有符合的成對提示詞。",
+    "galleryLabel": "GPT Image 2 與 Seedance 2 提示詞畫廊",
+    "actions": {
+      "copy": "複製提示詞",
+      "copied": "已複製到剪貼簿",
+      "share": "分享提示詞",
+      "shared": "連結已複製",
+      "source": "來源",
+      "tryItNow": "在 Kollab 中試用"
+    },
+    "images": {
+      "open": "打開圖片畫廊",
+      "previous": "上一張圖片",
+      "next": "下一張圖片",
+      "close": "關閉圖片畫廊",
+      "count": "{{current}} / {{total}}",
+      "fullscreen": "全螢幕播放影片"
+    },
+    "sections": {
+      "primaryPrompt": "GPT Image 2 提示詞",
+      "secondaryPrompt": "Seedance 2 提示詞"
+    },
+    "loadMore": {
+      "loading": "正在載入更多提示詞",
+      "error": "載入更多提示詞失敗。",
+      "retry": "重試載入",
+      "end": "已載入全部提示詞",
+      "idle": "繼續滑動會自動載入更多"
+    },
+    "seoGuide": {
+      "sectionLabel": "圖生影片提示詞指南與 FAQ",
+      "title": "如何搭配 GPT Image 2 與 Seedance 2 提示詞",
+      "intro": [
+        "這些卡片把一條圖像提示詞和一條影片提示詞放在一起，方便你直接研究一張靜態畫面是如何變成可播放短片的。",
+        "你可以先看 GPT Image 2 部分裡的構圖、材質和主體錨點，再看 Seedance 2 部分補了哪些運動、節奏和鏡頭指令。"
+      ],
+      "writingTitle": "如何寫出更強的成對提示詞",
+      "writingPoints": [
+        "讓圖像提示詞和影片提示詞共用同一主體、情緒和基本構圖。",
+        "把大部分視覺細節放在 GPT Image 2 提示詞裡，把影片提示詞的預算留給運動、節奏和運鏡。",
+        "迭代時一次只改一層，這樣你才能判斷提升來自靜態畫面設定，還是來自動態指令。"
+      ],
+      "faqTitle": "常見問題",
+      "faqs": [
+        {
+          "question": "為什麼要把兩條提示詞分開顯示？",
+          "answer": "因為圖像提示詞和影片提示詞解決的問題不同。分開顯示後，複製時更不容易把文字貼錯到錯誤的模型裡。"
+        },
+        {
+          "question": "影片提示詞需要重複完整的圖像描述嗎？",
+          "answer": "通常不需要。保留必須穩定的視覺錨點即可，其餘空間更適合用來描述運動、節奏和鏡頭變化。"
+        },
+        {
+          "question": "如果影片結果逐漸偏離參考圖，該先改哪裡？",
+          "answer": "先收緊圖像提示詞裡的主體錨點，再簡化影片提示詞，減少同時發生的變化數量。"
+        }
+      ]
+    }
+  }
+}

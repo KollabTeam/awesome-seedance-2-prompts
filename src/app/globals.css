@@ -1,0 +1,131 @@
+/**
+ * globals.css 定义 landing-pages 应用的 Tailwind v4 入口和全局设计 token。
+ * 它位于独立 Next 应用的全局样式层，被 App Router 根布局加载。
+ * 当前承载 "Atelier Editorial / Refined Marker" 视觉系统：米白纸底（#F4EEDF）、
+ * 标记笔氧化橙（#D2502A）和常青藤绿（#1F4E47）作为双色调，配合 Fraunces 展示字体和
+ * Source Serif 4 正文字体。
+ * 页面、gallery、lightbox 的具体视觉通过 Tailwind utility class 控制，
+ * 这里保留编辑调色盘、字体变量、分享浮层和浏览器基础样式。
+ */
+
+@import 'tailwindcss';
+
+:root {
+  /* ── 编辑调色盘：米白纸底 + 墨色文字 + 双色调强调 ── */
+  --paper: #f4eedf;
+  --paper-soft: #efe7d2;
+  --ink-primary: #1a1610;
+  --ink-secondary: #5c544a;
+  --hairline: rgba(26, 22, 16, 0.14);
+  --hairline-strong: rgba(26, 22, 16, 0.28);
+  --marker: #d2502a;
+  --ivy: #1f4e47;
+
+  /* ── 运动 token（保留，供 prefers-reduced-motion 覆盖） ── */
+  --motion-duration-fast: 180ms;
+  --motion-duration-base: 320ms;
+  --motion-duration-slow: 640ms;
+  --motion-ease-emphasis: cubic-bezier(0.22, 1, 0.36, 1);
+
+  color-scheme: light;
+}
+
+@theme inline {
+  /* ── Tailwind 颜色 utility 映射 ──
+   * bg-paper, text-ink-primary, text-marker, text-ivy 等 utility class
+   * 通过这里与 CSS 变量绑定，让组件层无需硬编码十六进制颜色值。
+   */
+  --color-paper: var(--paper);
+  --color-paper-soft: var(--paper-soft);
+  --color-ink-primary: var(--ink-primary);
+  --color-ink-secondary: var(--ink-secondary);
+  --color-hairline: var(--hairline);
+  --color-marker: var(--marker);
+  --color-ivy: var(--ivy);
+
+  /* 旧版 arcade token 在这里不再提供，因为它们只属于 handdrawn 外壳；
+   * handdrawn-* 组件通过硬编码颜色值或自身 CSS 变量维护，不依赖本层。 */
+  --font-sans: var(--font-serif-body);
+  --font-heading: var(--font-fraunces);
+  --font-display-arcade: var(--font-fraunces);
+}
+
+@source "../components/**/*.{js,ts,jsx,tsx}";
+@source "../lib/**/*.{js,ts,jsx,tsx}";
+@source "./**/*.{js,ts,jsx,tsx}";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  background: var(--paper);
+  color: var(--ink-primary);
+  font-size: 16px;
+  letter-spacing: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: var(--ink-primary);
+  background: var(--paper);
+  font-family: var(--font-serif-body), 'Source Serif 4', Georgia, serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-fraunces), 'Fraunces', Georgia, serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+/* ── 分享浮层可见性控制 ──
+ * 分享按钮在触屏设备上保持常驻，避免 hover-only 方案让手机和平板拿不到入口。
+ * 只有明确支持 hover 的设备才默认隐藏，并在媒体容器 hover / focus-within 时显露，
+ * 这样桌面端仍保留"浮在媒体上"的轻量感，同时不把单卡分享做成不可达功能。
+ */
+.prompt-share-overlay {
+  opacity: 1;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .prompt-share-shell .prompt-share-overlay {
+    opacity: 0;
+  }
+
+  .prompt-share-shell:hover .prompt-share-overlay,
+  .prompt-share-shell:focus-within .prompt-share-overlay {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
